@@ -31,6 +31,7 @@ You will build an AWS Lab Profile with the absolute minimal settings
  - Launch the Lab.  A few things to note:
     - No Credentials allocated
     - Not automatically logged in
+- This Lab is pretty much useless
 
 >[!KNOWLEDGE] An AWS Cloud Slice Lab will allocate an account from the Subscription Pool.  But for this to happen a Stack has to be deployed (even if empty). 
 >!IMAGE[AWS Subscription Pool](images/image01.jpg)
