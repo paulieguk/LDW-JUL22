@@ -19,6 +19,7 @@ You will build an AWS Lab Profile with the absolute minimal settings
 |||
 |---------------|--------------------------|
 | Cloud Platform:       | AWS                     |
+| Automatic Login | Selected |
 | Subscription Pool:    | Career RockIT |
 | Datacenter Availability | US East (Ohio) |
 
@@ -27,18 +28,10 @@ You will build an AWS Lab Profile with the absolute minimal settings
 - Save the Lab Profile.
 - From the top of the Lab Profile click the **Favourite** star
 
->[!Alert] If you have your own Azure Accounts you might get prompted to log in with those.  DO NOT.  Ensure you only log in with the provided credentials!
-
- - Launch and enter the Lab, signing in with the credentials provided on the resource tab.
-
->[!NOTE]Notice you cannot do anything even browsing is limited, when you entered Azure might have displayed a subscription error. 
-If you navigate anywhere Azure just tries to get you to sign up for a trial.  
-
- - End the Lab and make sure you close both Windows just leaving the original **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
-
->[!KNOWLEDGE] This is the way CSS would be enabled and the User would have full access to the subscription.  But the subscription **Career RockIT (Skillable)** is 
-setup as shared and therefore is used for CSR.
-
-!IMAGE[Azure Subscription Pool](images/image01.jpg)
+ - Launch the Lab.  A few things to note:
+    - No Credentials allocated
+    - Not automatically logged in
+ 
+ - End the Lab and make sure you close both Windows just leaving the original **LDW-Jul22-001: 001 LDW - AWS Cloud** lab running and continue.
 
 Press **Next** to continue
