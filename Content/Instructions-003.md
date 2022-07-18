@@ -1,12 +1,16 @@
 ## Summary
-In this exercise you will add some more settings to enable CSR and test that security.
+In this exercise you will add some more settings to enable the AWS Lab to be actually useful.
 
-- From the LOD Dashboard select the Lab Profile ++AzureCloudLab++ and edit that profile.
+- From the LOD Dashboard select the Lab Profile ++AWSCloudLab++ and edit that profile.
 
 On the **Cloud page** make the following changes.
 
-In the Resource Groups section Click **+ Add Resource Group**
-In the new box within the Permissions section click **+ Add Permission++**
+In the Stack Deployments section Click **+ Add Stack Deployment**
+
+- Save the Lab Profile, then launch the Lab.
+
+>[!KNOWLEDGE] With the lab now loaded notice that you was automatically logged into the AWS Console.  Select **VPC** from the dashboard, notive the *retry* messages everywhere.  From the search box enter **EC2** and go to the EC2 dashboard, notice the *API Error*.  This is all because AWS works on the default security principle of Deny all so without applying a security template access to everything has been blocked.
+
 
 Ensure **User1-** is listed with the Role **Contributor**
 
