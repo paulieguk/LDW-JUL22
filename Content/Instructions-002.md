@@ -9,7 +9,7 @@ You will build an AWS Lab Profile with the absolute minimal settings
 |||
 |---------------|--------------------------|
 | Number:       | ++@lab.Variable(initials)++                      |
-| Name:         | ++AWSloudLab++ |
+| Name:         | ++AWSCloudLab++ |
 | Organisation: | LDW-JUL22                |
 | Series:       | LDW-JUL22                |
 | Virtualization Platform: | None |
@@ -19,8 +19,8 @@ You will build an AWS Lab Profile with the absolute minimal settings
 |||
 |---------------|--------------------------|
 | Cloud Platform:       | AWS                     |
-| Subscription Pool:    | Career RockIT (Skillable) |
-| Datacenter Availability | East US 2 |
+| Subscription Pool:    | Career RockIT |
+| Datacenter Availability | US East (Ohio) |
 
 >[!Knowledge] This represents the minimum data that can be entered into an AWS Cloud Lab Profile.  If you attended the Azure Cloud Slice what setting did Azure Require but AWS does not?
 
