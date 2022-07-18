@@ -1,5 +1,5 @@
-# 001 - Welcome to the Lab Developer Workshop - June 2022
-## Azure Cloud Slice Deep Dive
+# 001 - Welcome to the Lab Developer Workshop - July 2022
+## AWS Cloud Slice Deep Dive
 
 ### Before you start
 
