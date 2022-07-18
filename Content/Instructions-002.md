@@ -1,6 +1,6 @@
 
 ## Summary
-You will build an Azure Lab Profile with the absolute minimal settings
+You will build an AWS Lab Profile with the absolute minimal settings
 
 - From the Skillable Dashboard Create a new lab profile then from the Template Gallery use the **+ Create Custom Environment** option.  When creating the new Lab Profile use the following information:
 
@@ -9,20 +9,20 @@ You will build an Azure Lab Profile with the absolute minimal settings
 |||
 |---------------|--------------------------|
 | Number:       | ++@lab.Variable(initials)++                      |
-| Name:         | ++AzureCloudLab++ |
-| Organisation: | LDW-JUN22                |
-| Series:       | LDW-JUN22                |
+| Name:         | ++AWSloudLab++ |
+| Organisation: | LDW-JUL22                |
+| Series:       | LDW-JUL22                |
 | Virtualization Platform: | None |
 
 **Cloud Page**
 
 |||
 |---------------|--------------------------|
-| Cloud Platform:       | Azure                     |
+| Cloud Platform:       | AWS                     |
 | Subscription Pool:    | Career RockIT (Skillable) |
 | Datacenter Availability | East US 2 |
 
->[!Knowledge] This represents the minimum data that can be entered into an Azure Cloud Lab Profile.  Notice there was already a user selected with a prefix of **User1-**
+>[!Knowledge] This represents the minimum data that can be entered into an AWS Cloud Lab Profile.  If you attended the Azure Cloud Slice what setting did Azure Require but AWS does not?
 
 - Save the Lab Profile.
 - From the top of the Lab Profile click the **Favourite** star
