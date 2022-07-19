@@ -22,6 +22,7 @@ You will build an AWS Lab Profile with the absolute minimal settings
 | Enable Automatic Login | Selected |
 | Subscription Pool:    | Career RockIT |
 | Datacenter Availability | US East (Ohio) |
+| User Accounts | Remove the User1 account (click the **X** on the right |
 
 >[!Knowledge] This represents the minimum data that can be entered into an AWS Cloud Lab Profile.  If you attended the Azure Cloud Slice what setting did Azure Require but AWS does not?
 
