@@ -8,10 +8,10 @@ You will build an AWS Lab Profile with the absolute minimal settings
 
 |||
 |---------------|--------------------------|
-| Number:       | ++@lab.Variable(initials)++                      |
+| Number:       | ++@lab.Variable(initials)++  |
 | Name:         | ++AWSCloudLab++ |
-| Organisation: | LDW-JUL22                |
 | Series:       | LDW-JUL22                |
+| Organisation: | LDW-JUL22                |
 | Virtualization Platform: | None |
 
 **Cloud Page**
@@ -19,7 +19,7 @@ You will build an AWS Lab Profile with the absolute minimal settings
 |||
 |---------------|--------------------------|
 | Cloud Platform:       | AWS                     |
-| Automatic Login | Selected |
+| Enable Automatic Login | Selected |
 | Subscription Pool:    | Career RockIT |
 | Datacenter Availability | US East (Ohio) |
 
@@ -34,7 +34,7 @@ You will build an AWS Lab Profile with the absolute minimal settings
 - This Lab is pretty much useless
 
 >[!KNOWLEDGE] An AWS Cloud Slice Lab will allocate an account from the Subscription Pool.  But for this to happen a Stack has to be deployed (even if empty). 
->!IMAGE[AWS Subscription Pool](images/image01.jpg)
+!IMAGE[AWS Subscription Pool](images/image01.jpg)
  
  - End the Lab and make sure you close both Windows just leaving the original **LDW-Jul22-001: 001 LDW - AWS Cloud** lab running and continue.
 
