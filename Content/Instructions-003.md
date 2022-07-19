@@ -54,14 +54,4 @@ Remeber the VPC had the following default configuration:
 |---------------|--------------------------|
 | Storage Account Name:       | ++sa@lab.LabInstance.Id++    |
 
-- Press **Review + Create**
-
->[!ALERT]Notice the error.  Click it to view the details and notice it is an access/permissions issue as you only have read access.
-
-Cancel the wizard with the **X** top right.
-
- - End the Lab and make sure you close both Windows just leaving the original **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
-
-- [] This completes the activities for Lab 1 please let your instructor know that you have completed Lab 1
-
 Press **Next** to continue
