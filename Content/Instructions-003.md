@@ -9,35 +9,41 @@ In the Stack Deployments section Click **+ Add Stack Deployment**
 
 - Save the Lab Profile, then launch the Lab.
 
->[!KNOWLEDGE] With the lab now loaded notice that you was automatically logged into the AWS Console.  Select **VPC** from the dashboard, notive the *retry* messages everywhere.  From the search box enter **EC2** and go to the EC2 dashboard, notice the *API Error*.  This is all because AWS works on the default security principle of Deny all so without applying a security template access to everything has been blocked.
+>[!NOTE] With the lab now loaded notice that you was automatically logged into the AWS Console.  Select **VPC** from the dashboard, notive the *retry* messages everywhere.  From the search box enter **EC2** and go to the EC2 dashboard, notice the *API Error*.  This is all because AWS works on the default security principle of Deny all so without applying a security template access to everything has been blocked.
 
 - End the Lab and make sure you close both Windows just leaving the original **LDW-Jul22-001: 001 LDW - AWS Cloud** lab running and continue.
 
+>[!KNOWLEDGE] LOD enables the ability to ceate user acounts in an AWS Organisation.  In most scenarios these are not required as the automatically created account meets the requirements when creating AWS Lab.  The primary reason you might create user accounts is when you want to simulate different users having access to different Stack Deployments.  
+>When a User Account has been added it can then be assigned to the Stack by clicking the **+ Add Permission** link within the Stack section.
 
-Ensure **User1-** is listed with the Role **Contributor**
+### Lets assign some access
 
->[!KNOWLEDGE] LOD provides three levels of user access:    
->**Reader** - Can read all objects in a Resource Group but cannot modify.    
->**Contributor** - Can Read, Create, Modify and Delete objects in a Resource Group.    
->**Owner** - Can manage the security and access to the Resource Group.    
->These groups are very similar to the standard groups, but you will see them created as LODS-rolename.
+- From the LOD Dashboard select the Lab Profile ++AWSCloudLab++ and edit that profile.
+- Click **+Add Policy** in the Access Control Policies section
+- Select the **LOD Managed - Allow All (DEVELOPEMENT ONLY - AWS**
+- Save the Lab Profile, then launch the lab.
 
-- Save the Lab Profile
+With the lab launched notice the following:
 
->[!ALERT]You will see an error at the top of the page. This is because we are trying to use an account with write permissions and Lod requires that an Access Control Policy be defined and applied to the Lab Profile.  
+ - [] Automatically logged on
+ - [] Search for EC2 and view the EC2 Dashbaord - No errors
+ - [] Search for VPC and view the VPC dasboard again no errors and all values set at **0**
+ - End the lab
+ 
+ Now you will add the default VPC resources to see what that does.
 
-- Set the Role for User1- to Reader
-- Save the Lab Profile.
-- Launch and enter the Lab, signing in with the credentials provided on the resource tab.
+- From the LOD Dashboard select the Lab Profile ++AWSCloudLab++ and edit that profile.
+- On the Cloud page tick the **Deploy Default VPC**
+- Save the Lab Profile, then launch the lab.
 
-- From the Dashboard Click **Resource Groups**  This will generate an error just click on the arrow to the right and the Resource group should be displayed.  
-- Click the **Resource Group** to enter it and on the left-hand menu select **Access Control (IAM)**
-- Click view my access and notice the results returned.  Close the Windows/Blade that appeared with your access in.
-- On the left Click **Overview** followed by **+ Create** on the menu.
-- In the Search Box type ++Storage Account++
-- Click **Create Storage Account** and fill in the form as follows:
+Once the Lab has started and the console is displayed click VPC from the dashbaord or type ++VPC++ in the search to view the VPC dashboard.
+Notice the VPC dashbaord show now show that a VPC, Subnets and other objects have been created.
 
-!IMAGE[Create Storage Account](images/image02.jpg)
+!IMAGE[VPC Objects](images/image2.jpg)
+
+- Click **Subnets** on the left and noticed the three subnets that have been created including their IP Address ranges, as discussed earlier.
+
+!IMAGE[Subnets in the VPC](images/image3.jpg)
 
 |||
 |---------------|--------------------------|
