@@ -35,7 +35,7 @@ You will build an AWS Lab Profile with the absolute minimal settings
 - This Lab is pretty much useless
 
 >[!KNOWLEDGE] An AWS Cloud Slice Lab will allocate an account from the Subscription Pool.  But for this to happen a Stack has to be deployed (even if empty). 
-!IMAGE[AWS Subscription Pool](images/image01.jpg)
+!IMAGE[AWS Subscription Pool](images/image1.jpg)
  
  - End the Lab and make sure you close both Windows just leaving the original **LDW-Jul22-001: 001 LDW - AWS Cloud** lab running and continue.
 
