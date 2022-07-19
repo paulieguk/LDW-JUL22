@@ -41,6 +41,9 @@ Notice the VPC dashbaord show now show that a VPC, Subnets and other objects hav
 
 !IMAGE[VPC Objects](images/image2.jpg)
 
+Remeber the VPC had the following default configuration:
+!IMAGE[AWS Default VPC](images\image4.jpg)
+
 - Click **Subnets** on the left and noticed the three subnets that have been created including their IP Address ranges, as discussed earlier.
 
 !IMAGE[Subnets in the VPC](images/image3.jpg)
