@@ -1,5 +1,5 @@
 ## Summary
-In this exercise you will add some more settings to enable the AWS Lab to be actually useful.
+In this exercise you will add some more settings to enable the AWS Lab to be actually more useful.
 
 - From the LOD Dashboard select the Lab Profile ++AWSCloudLab++ and edit that profile.
 
