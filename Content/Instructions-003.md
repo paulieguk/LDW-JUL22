@@ -11,6 +11,8 @@ In the Stack Deployments section Click **+ Add Stack Deployment**
 
 >[!KNOWLEDGE] With the lab now loaded notice that you was automatically logged into the AWS Console.  Select **VPC** from the dashboard, notive the *retry* messages everywhere.  From the search box enter **EC2** and go to the EC2 dashboard, notice the *API Error*.  This is all because AWS works on the default security principle of Deny all so without applying a security template access to everything has been blocked.
 
+- End the Lab and make sure you close both Windows just leaving the original **LDW-Jul22-001: 001 LDW - AWS Cloud** lab running and continue.
+
 
 Ensure **User1-** is listed with the Role **Contributor**
 
