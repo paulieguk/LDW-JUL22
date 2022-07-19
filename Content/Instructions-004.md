@@ -19,3 +19,6 @@ During this task you will continue in the lab just to prove that you can build r
 
 >[!KNOWLEDGE] Stirage accounts can be used to store any required data for a AWS Cloud app.  The S3 buckets can also be used to host static websites or website content.  It is common today when browsing a website and clicking on a link to download content your browser downloads from cloud storage and if the URL you download from contains s3-website in the name it is being downloaded from an Amazon S3 bucket acting as a static website.
 
+ - [] This completes the activities for Lab 1 please let your instructor know that you have completed Lab 1
+
+Press Next to continue
