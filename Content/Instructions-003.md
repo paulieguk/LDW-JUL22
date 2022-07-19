@@ -18,6 +18,8 @@ In the Stack Deployments section Click **+ Add Stack Deployment**
 
 ### Lets assign some access
 
+You will start by asigning a developement Access Control Policy as that will allow all access.  This policy is Skillable managed and not allowed in production.
+
 - From the LOD Dashboard select the Lab Profile ++AWSCloudLab++ and edit that profile.
 - Click **+Add Policy** in the Access Control Policies section
 - Select the **LOD Managed - Allow All (DEVELOPEMENT ONLY - AWS**
@@ -42,7 +44,7 @@ Notice the VPC dashbaord show now show that a VPC, Subnets and other objects hav
 !IMAGE[VPC Objects](images/image2.jpg)
 
 Remeber the VPC had the following default configuration:
-!IMAGE[AWS Default VPC](images\image4.jpg)
+!IMAGE[AWS Default VPC](images/image4.jpg)
 
 - Click **Subnets** on the left and noticed the three subnets that have been created including their IP Address ranges, as discussed earlier.
 
