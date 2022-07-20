@@ -1,71 +1,49 @@
 ##Summary
 
-The previous lab provided an empty cloud subscription to then complete activities and create Azure based resources.  There may be scenarios that you would 
-require some or maybe all services provisioned for the user.  This is where an Azure Resource Manager template comes into play and can be used to provision resources. 
-One feature to remember about using a template to provision resources is these resources are provision with elevated access so the template can provision resources that the user would not have the ability to deploy but the user can access them.
+The previous lab blocked the ability to create no S3 resources.  to demonstrate a further function in this lab a new ACP will be applied but this time the ACP will also enforce a naming convention on the s3 bucket being created.
 
-###Building a Lab Profile with a simple static template
+###Updating the Access Control Policy
 
-- From within LOD ensure the AzureCloudLab, Lab Profile is being displayed.
-- Edit the Lab Profile and use the **SaveAs** function to save the new Lab Profile with a name of ++Azure Web App Lab++
-- Edit this new Lab Profile
-- On the Cloud page add the Resource Template **LDW - Basic WebAPP** into the resources template section.
-- We will run with the Development ACP
-- Save the Lab Profile
+- From within LOD ensure the **AWS Simple Storage Service S3 Lab**, Lab Profile is being displayed.
+- Edit the Lab Profile. 
+- On the Cloud page remove the old Access Control Policy and add the policy ++LDW-JUL22 S3 Name Prefix S3++.  This policy enfoces a rule that when an S3 bucket is created the name has to start with the prefix s3
 
->[!KNOWLEDGE] <summary>
-Template contents
-</summary>
-<details>
->```ARM-nocopy
+```ACP-nocopy
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
-   "contentVersion": "1.0.0.0",
-    "resources": [
-        {
-            "apiVersion": "2016-09-01",
-            "name": "AppServicePlan1",
-            "type": "Microsoft.Web/serverfarms",
-            "location": "[resourceGroup().location]",
-            "sku": {
-                "name": "D1",
-                "capacity": 1
-        },
-            "properties": {
-                "name": "AppServicePlan1"
-            }
-        },
-        {
-            "apiVersion": "2015-08-01",
-            "name": "[concat('WebApp',substring(ResourceGroup().name,14,11))]",
-            "type": "Microsoft.Web/sites",
-            "location": "[resourceGroup().location]",
-            "dependsOn": [
-                "Microsoft.Web/serverfarms/AppServicePlan1"
-            ],
-            "properties": {
-                "name": "[concat('WebApp',substring(ResourceGroup().name,14,11))]",
-                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms/', 'AppServicePlan1')]",
-                "httpsOnly":true
-            }
-        }
-    ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Action": [
+        "s3:CreateBucket"
+      ],
+      "Effect": "Deny",
+      "NotResource": "arn:aws:s3:::s3*"
+      }
+  ]
 }
 ```
 
 
-###Testing the ARM template
+- Save the Lab Profile
 
-- Launch the Lab Profile **Azure Web App Lab**
-- You will notice this takes much longer to provision
-- Navigate into your Resource Group.
+### Testing the new Policy
 
->[!ALERT] It can still take up to 90 seconds for the resource to become available in Azure so there still might be an error when you view the Resource Group.  Just wait a couple of minutes and try again.
+#### Confirming S3 Buckets can be created
 
-- Select the Web App (listed as App Service) with a name of **WebApplod@lab.LabInstance.Id**
-- On the **WebApplod@lab.LabInstance.Id** Overview page copy the Web App URL (near the top right) and paste it into a local browser to confirm the Website loads the default Webpage.
-- End the **Azure Web App Lab**
+- Launch the Lab Profile **AWS Simple Storage Service S3 Lab**
+- Using the search function navigate to the S3 dashboard
+- Create a new S3 Bucket using all defaults with a name of s3-@lab.LabInstance.Id
+- This should create successfully
+- Create a second S3 Bucket using all the defaults with the name of test-@lab.LabInstance.Id
+- This S3 bucket should fail to be created
 
-- [] This completes the activities for Lab 3 please let your instructor know that you have completed Lab 3
+- End the Lab and make sure you close both Windows just leaving the original LDW-Jun22-001: 001 LDW - AWS Cloud lab running and continue.
 
-Press **Next** to continue
+
+
+Press Next to continue
