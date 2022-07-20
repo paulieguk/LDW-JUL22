@@ -4,65 +4,56 @@ As you saw in the previous exercise the unrestricted policy allowed any potentia
 
 ###Updating the Access Control Policy
 
-- From within LOD ensure the AzureCloudLab, Lab Profile is being displayed.
-- Edit the Lab Profile and use the **SaveAs** function to save the new Lab Profile with a name of ++AzureStorageAccountLab++
+- From within LOD ensure the AWSCloudLab, Lab Profile is being displayed.
+- Edit the Lab Profile and use the **SaveAs** function to save the new Lab Profile with a name of ++AWS Simple Storage Service S3 Lab++
 - Make this new Lab Profile a favourite so it is easy to find
 - Edit this new Lab Profile
-- On the **Cloud** page remove the old Access Control Policy and add the policy ++LDW - Only Storage Accounts++
+- On the **Cloud** page remove the old Access Control Policy and add the policy ++LDW - JUL22 S3 Only++
 
-```ACP-nocopy
+```AWS-ACP-nocopy
 {
-  "if": {
-     "not": {
-         "field": "type",
-         "equals": "Microsoft.Storage/storageAccounts"
-         }
-     },
-     "then": {
-         "effect": "deny"
-     }
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+	   "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": "*"
+        }
+    ]
 }
 ```
 
 - Save the Lab Profile
 
-###Testing the new Policy
+### Testing the new Policy
 
-- Launch the Lab Profile AzureStorageAccountLab
-- Navigate into your Resource Group 
+#### Confirming S3 Buckets can be created
 
-### Lets provision a Storage Account
- - From the Resource Group Overview page click **+ Create**
- - On the right of the Create a resource blade click **Try Our Quickstart center**
- - Select **Store, back up, or archive data**
- - **Create** an Azure Storage account
- 
- Fill the form in with the following values:
- 
- |||
-|---------------|--------------------------|
-| Storage Account Name       | ++sa@lab.LabInstance.Id++                      |
+- Launch the Lab Profile **AWS Simple Storage Service S3 Lab**
+- Using the search function navigate to the S3 dashboard
+- Create a new S3 Bucket using all defaults with a name of s3-@lab.LabInstance.Id
+- This should create successfully
+- Create a second S3 Bucket using all the defaults with the name of test-@lab.LabInstance.Id
+- This S3 bucket shoukd create successfully.
 
- - Press **Review and Create**, Followed by **Create**
+### Attempt to create a non S3 resource
 
->[!Knowledge] This will provision the resource group within a few seconds.  This is allowed because of the Allow Storage Accounts ACP.  Other resource types should be blocked.
+- In the Search box type ++ec2++ and navigate to the ec2 dashboard.
 
-- Press **Go to resource** just to confirm the resource exists.
+>[!ALERT] Notice all the API Error messages on the dashboard
 
-### Let's attempt to provision another service
-- Return to the Resource Group (via the Dashboard if needed)
-- Create a Web App using the Quick Create function used above
+- On the left had side select **AMI Catalog**
+- In the middle panel select the top AMI named **Amazon Linux 2 AMI (HVM) - Kernel 5.10, SSD Volume Type**
 
-You will need the following values:
+!IMAGE[AMI Selection](images/image6.jpg)
 
- |||
-|---------------|--------------------------|
-| Name       | ++wapp@lab.LabInstance.Id++                  |
-| Runtime | PHP 8.0  |
-
-- Press **Review and Create**, Followed by **Create**
-- When the deployment is attempted, this will generate a large and unsightly error.  But you should notice that within the first few lines it will state this has been IMAGE[**disallowed by policy**](images/image05.jpg)
-- Click the **X** at the top right to close the error.
+- At the top of the page press the **Launch Instance with AMI** button
+- On the next page for the **Name** field enter ++@lab.Variable(initials)-ec2-01++
+- Press the **Launch Instance** button on the left
+- On the next screen choose the **Procced without key pair**
+- Then press the **Procced without key pair** button
+- You will be noticing lots of errors due to a lack of permissions
+- Attempt to press the **launch Instance** button again and notice the additional errors
 
 - End the Lab and make sure you close both Windows just leaving the original **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
 
