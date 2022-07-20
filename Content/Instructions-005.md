@@ -27,7 +27,8 @@ During this exercise you will confirm the current policy does not restrict the a
 - On the next screen choose the **Procced without key pair**
 - Then press the **Procced without key pair** button
 - Attempt to press the **Launch Instance** button again the ec2 Instance should launch.  This can be confirmed on the EC2 Instances dashboard.  
-Wait for the instance to be displayed as running and having passed both the health checks.
+
+Wait for the **Instance State** to be displayed as running and having passed both the **Status Checks**
 
 - End the Lab and make sure you close both Windows just leaving the original **LDW-Jul22-001: 001 LDW - AWS Cloud** lab running and continue.
 
