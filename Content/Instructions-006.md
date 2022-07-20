@@ -1,6 +1,6 @@
 ##Summary
 
-As you saw in the previous exercise the unrestricted policy allowed any potential resource could be created which could mean extreme costs could be incurred as well as increase the chance of the Azure subscription being abused by a threat actor.  In this exercise we will assume the requirement is to only allow the creation of an Azure Lab Profile that allows Storage Accounts to be created.
+As you saw in the previous exercise the unrestricted policy allowed any potential resource could be created which could mean extreme costs could be incurred as well as increase the chance of the Azure subscription being abused by a threat actor.  In this exercise we will assume the requirement is to only allow the creation of an AWS Lab Profile that allows only Simple Storage Service (S3) resources to be created.
 
 ###Updating the Access Control Policy
 
@@ -55,9 +55,7 @@ As you saw in the previous exercise the unrestricted policy allowed any potentia
 - You will be noticing lots of errors due to a lack of permissions
 - Attempt to press the **launch Instance** button again and notice the additional errors
 
-- End the Lab and make sure you close both Windows just leaving the original **LDW-Jun22-001: 001 LDW - Azure Cloud** lab running and continue.
-
-- [] This completes the activities for Lab 2 please let your instructor know that you have completed Lab 2
+- End the Lab and make sure you close both Windows just leaving the original **LDW-Jun22-001: 001 LDW - AWS Cloud** lab running and continue.
 
 Press **Next** to continue
 
