@@ -50,8 +50,4 @@ Remeber the VPC had the following default configuration:
 
 !IMAGE[Subnets in the VPC](images/image3.jpg)
 
-|||
-|---------------|--------------------------|
-| Storage Account Name:       | ++sa@lab.LabInstance.Id++    |
-
 Press **Next** to continue
