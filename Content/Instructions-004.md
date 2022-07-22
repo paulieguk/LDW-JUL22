@@ -14,7 +14,7 @@ During this task you will continue in the lab just to prove that you can build r
 !IMAGE[Bucket settings](images/image5.jpg)
 
  - Click **Create bucket**
- - On the bucket dashboard click the bucket name s3-@lab.LabInstance.Id
+ - On the bucket dashboard click the bucket name **s3-@lab.LabInstance.Id**
  - Use the upload button to upload a file, to prove you can store data.  If required use the PDF provided that contains useful links.
 
 >[!KNOWLEDGE] Stirage accounts can be used to store any required data for a AWS Cloud app.  The S3 buckets can also be used to host static websites or website content.  It is common today when browsing a website and clicking on a link to download content your browser downloads from cloud storage and if the URL you download from contains s3-website in the name it is being downloaded from an Amazon S3 bucket acting as a static website.
