@@ -8,7 +8,7 @@ The previous lab blocked the ability to create all resources except S3 buckets. 
 - Edit the Lab Profile. 
 - On the Cloud page remove the old Access Control Policy and add the policy ++LDW-JUL22 S3 Name Prefix S3++.  This policy enfoces a rule that when an S3 bucket is created the name has to start with the prefix s3
 
-```AWS ACP-nocopy
+```AWSACP-nocopy
 {
   "Version": "2012-10-17",
   "Statement": [
