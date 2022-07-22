@@ -10,7 +10,7 @@ As you saw in the previous exercise the unrestricted policy allowed any potentia
 - Edit this new Lab Profile
 - On the **Cloud** page remove the old Access Control Policy and add the policy ++LDW - JUL22 S3 Only++
 
-```AWS-ACP-nocopy
+```AWSACP-nocopy
 {
     "Version": "2012-10-17",
     "Statement": [
