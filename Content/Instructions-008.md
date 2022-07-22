@@ -4,7 +4,7 @@ Having built Labs that allow a user to access the AWS console but have no resour
 
 ### Adding an S3 Template
 
-As per the demonstration earlier you will add a template that conatins the same content to provision and S3 bucket.
+As per the demonstration earlier you will add a template that contains the same content to provision and S3 bucket.
 
 - Edit the ++AWS Simple Storage Service S3 Lab++ Lab Profile
 - On the **Cloud** page in the **Stack Deployments** section add the **Resource Template** ++aws s3 bucket no name++
@@ -37,6 +37,8 @@ The Resource Template conatins the JSON below.  One thing to notice when you hav
 
 - End the Lab
 
+===
+
 This time you will add a second resource template that specifies the name.
 
 - Edit the ++AWS Simple Storage Service S3 Lab++ Lab Profile
@@ -56,7 +58,7 @@ The Resource Template conatins the JSON below.  One thing to notice when you hav
       "Type" : "AWS::S3::Bucket",
       "Properties" : {
         "AccessControl" : "PublicRead",
-        "BucketName" : "labinstances3-&#x64;lab.LabInstance.Id"
+        "BucketName" : "li-s3-&#x64;lab.LabInstance.Id"
       },
       "DeletionPolicy" : "Delete"
     }
