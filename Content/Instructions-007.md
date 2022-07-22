@@ -44,6 +44,6 @@ The previous lab blocked the ability to create all resources except S3 buckets. 
 
 - End the Lab and make sure you close both Windows just leaving the original LDW-Jun22-001: 001 LDW - AWS Cloud lab running and continue.
 
- - [] This completes the activities for Lab 1 please let your instructor know that you have completed Lab 2
+ - [] This completes the activities for Lab 2 please let your instructor know that you have completed Lab 2
 
 Press Next to continue
