@@ -22,15 +22,15 @@ You will start by asigning a developement Access Control Policy as that will all
 
 - From the LOD Dashboard select the Lab Profile ++AWSCloudLab++ and edit that profile.
 - Click **+Add Policy** in the Access Control Policies section
-- Select the **LOD Managed - Allow All (DEVELOPEMENT ONLY - AWS**
+- Select the **LOD Managed - Allow All (DEVELOPEMENT ONLY - AWS)**
 - Save the Lab Profile, then launch the lab.
 
 With the lab launched notice the following:
-
- - [] Automatically logged on
- - [] Search for EC2 and view the EC2 Dashbaord - No errors
- - [] Search for VPC and view the VPC dasboard again no errors and all values set at **0**
- - End the lab
+>
+> - [] Automatically logged on
+> - [] Search for EC2 and view the EC2 Dashbaord - No errors
+> - [] Search for VPC and view the VPC dasboard again no errors and all values set at **0**
+> - End the lab
  
  Now you will add the default VPC resources to see what that does.
 
