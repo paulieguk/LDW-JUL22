@@ -1,5 +1,5 @@
 
-## Summary
+## Introduction
 You will build an AWS Lab Profile with the absolute minimal settings
 
 - From the Skillable Dashboard Create a new lab profile then from the Template Gallery use the **+ Create Custom Environment** option.  When creating the new Lab Profile use the following information:
