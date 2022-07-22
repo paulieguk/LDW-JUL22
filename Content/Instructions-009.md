@@ -27,9 +27,9 @@ The Resource Template conatins the JSON below.  One thing to notice when you hav
 
 - Launch the Lab Profile
 - When launched notice two buckets now exist and notice the name of the second one
-- Create a third S3 Bucket using all defaults with a name of s3-@lab.LabInstance.Id
+- Create a third S3 Bucket using all defaults with a name of ++s3-@lab.LabInstance.Id++
 - This bucket should create successfully
-- Create a fourth S3 Bucket using all defaults with a name of testbucket-@lab.LabInstance.Id
+- Create a fourth S3 Bucket using all defaults with a name of ++testbucket-@lab.LabInstance.Id++
 - This bucket should **not** create successfully as the ACP is still in place enforcing a naming scheme.  But notice the template deployed resources whee not impacted by the ACP.
 
 - [] This completes the activities for Lab 3 please let your instructor know that you have completed Lab 3
