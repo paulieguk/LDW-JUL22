@@ -1,6 +1,6 @@
 ## Introduction
 
-As you saw in the previous exercise the unrestricted policy allowed any potential resource could be created which could mean extreme costs could be incurred as well as increase the chance of the Azure subscription being abused by a threat actor.  In this exercise we will assume the requirement is to only allow the creation of an AWS Lab Profile that allows only Simple Storage Service (S3) resources to be created.
+As you saw in the previous exercise the unrestricted policy allowed any potential resource could be created which could mean extreme costs could be incurred as well as increase the chance of the AWS subscription being abused by a threat actor, crypto miner or other individual.  In this exercise we will assume the requirement is to only allow the creation of an AWS Lab Profile that allows only Simple Storage Service (S3) resources to be created.
 
 ### Updating the Access Control Policy
 
