@@ -33,7 +33,7 @@ The Resource Template conatins the JSON below.  One thing to notice when you hav
 - Launch the Lab Profile
 - Navigate to the S3 dashboard and notice the S3 Bucket name
 
->[!ALERT] first person to either shout out or enter the name format in chat we win a prize!
+>[!ALERT] The first partcipant to either shout out or enter into chat, the name format wins a prize!
 
 - End the Lab
 
@@ -43,7 +43,7 @@ This time you will add a second resource template that specifies the name.
 - On the **Cloud** page in the **Stack Deployments** section add a second **Resource Template** ++AWS S3 Bucket with Lab Instance++
 - Save the Lab Profile 
 
-The Resource Template conatins the JSON below.  One thing to notice when you have been creating S3 buckets you have had to supply a nam, notive the JSON file does not contain the name field.  So what will happen about the s3 Bucket name?
+The Resource Template conatins the JSON below.  One thing to notice when you have been creating S3 buckets you have had to supply a name, notice the JSON file does not contain the name field.  So what will happen about the s3 Bucket name?
 
 ```AWSTemplate-nocopy
 {
@@ -56,7 +56,7 @@ The Resource Template conatins the JSON below.  One thing to notice when you hav
       "Type" : "AWS::S3::Bucket",
       "Properties" : {
         "AccessControl" : "PublicRead",
-        "BucketName" : "labinstances3-@lab.LabInstance.Id"
+        "BucketName" : "labinstances3-&hx40;lab.LabInstance.Id"
       },
       "DeletionPolicy" : "Delete"
     }
