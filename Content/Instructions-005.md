@@ -6,7 +6,7 @@ During this exercise you will confirm the current policy does not restrict the a
 
 #### Confirming S3 Buckets can be created
 
-- Launch the Lab Profile **AWS Simple Storage Service S3 Lab**
+- Launch the Lab Profile **AWSCloudLab**
 - Using the search function navigate to the S3 dashboard
 - Create a new S3 Bucket using all defaults with a name of s3-@lab.LabInstance.Id
 - This bucket should create successfully
