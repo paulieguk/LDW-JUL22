@@ -31,7 +31,7 @@ The Resource Template contains the JSON below. Notice this file has a Parameter 
   "Parameters" : {
   "BucketNameParam" : {
     "Type" : "String",
-    "Description" : "Name for the S3 Bucket.  It must start with a letter."
+    "Description" : "Name for the S3 Bucket.  It must start with a lowercase letter."
   }
 },
 
