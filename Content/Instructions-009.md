@@ -17,7 +17,7 @@ which is using the **li-s3-** followed by the &#64;lab.LabInstance.Id parameter
 -   When launched notice two buckets now exist and notice the name of the second
     one
 
--   Create a third S3 Bucket using all defaults with a name of ++s3-@lab.LabInstance.Id++
+-   Create a third S3 Bucket using all defaults with a name of ++s3-009-@lab.LabInstance.Id++
 
 -   This bucket should create successfully
 
