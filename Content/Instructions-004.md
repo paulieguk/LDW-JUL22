@@ -19,6 +19,8 @@ resources.
 
 !IMAGE[Bucket settings](images/image5.jpg)
 
+- Press the **Create Bucket** button at the bottom of the page
+
 -   On the bucket dashboard click the bucket name **s3-@lab.LabInstance.Id**
 
 -   Use the upload button to upload a file, to prove you can store data. If
