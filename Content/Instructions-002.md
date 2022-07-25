@@ -30,7 +30,8 @@ You will build an AWS Lab Profile with the absolute minimal settings
 - Save the Lab Profile.
 - From the top of the Lab Profile click the **Favourite** star
 
- - Launch the Lab.  A few things to note:
+ - Launch the Lab.  A few things to note:     
+ 
     - No Credentials allocated
     - Not automatically logged in
 - This Lab is pretty much useless
