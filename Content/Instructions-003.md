@@ -47,12 +47,11 @@ production.
 
 With the lab launched notice the following:
 
->   [] Automatically logged on
+>  - [] Automatically logged on
 
->   [] Search for EC2 and view the EC2 Dashboard - No errors
+>  - [] Search for EC2 and view the EC2 Dashboard - No errors
 
->   [] Search for VPC and view the VPC dashboard again no errors and all values
->   set at **0**
+>  - [] Search for VPC and view the VPC dashboard again no errors and all values set at **0**
 
 >   End the lab
 
