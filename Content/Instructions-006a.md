@@ -4,9 +4,9 @@
 
 - Launch the Lab Profile **AWS Simple Storage Service S3 Lab**
 - Using the search function navigate to the S3 dashboard
-- Create a new S3 Bucket using all defaults with a name of ++s3-@lab.LabInstance.Id++
+- Create a new S3 Bucket using all defaults with a name of ++s3-006-@lab.LabInstance.Id++
 - This should create successfully
-- Create a second S3 Bucket using all the defaults with the name of ++test-@lab.LabInstance.Id++
+- Create a second S3 Bucket using all the defaults with the name of ++test-006-@lab.LabInstance.Id++
 - This S3 bucket shoukd create successfully.
 
 ### Attempt to create a non S3 resource
