@@ -15,18 +15,20 @@ During this exercise you will confirm the current policy does not restrict the a
 
 ### Attempt to create a non S3 resource
 
-- In the Search box type ++ec2++ and navigate to the **ec2 dashboard**.
+- In the Search box type ++EC2++ and navigate to the **EC2 dashboard**.
 - On the left had side select **AMI Catalog**
 - In the middle panel select the top AMI named **Amazon Linux 2 AMI (HVM) - Kernel 5.10, SSD Volume Type**
 
 !IMAGE[AMI Selection](images/image6.jpg)
 
 - At the top of the page press the **Launch Instance with AMI** button
-- On the next page for the **Name** field enter ++@lab.Variable(initials)-ec2-01++
-- Press the **Launch Instance** button on the left
+- On the next page for the **Name** field enter ++@lab.Variable(initials)-EC2-01++
+- Press the **Launch Instance** button on the right
 - On the next screen choose the **Procced without key pair**
 - Then press the **Procced without key pair** button
-- Attempt to press the **Launch Instance** button again the ec2 Instance should launch.  This can be confirmed on the ec2 Instances dashboard.  
+- Attempt to press the **Launch Instance** button again the EC2 Instance should launch    
+- When the progress updates are complete press the **View all instances** button
+- The dashboard should show the EC2 instances is building/running  
 
 Wait for the **Instance State** to be displayed as running and having passed both the **Status Checks**.  This might take a few minutes.
 
