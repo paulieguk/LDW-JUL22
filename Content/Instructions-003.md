@@ -12,7 +12,7 @@ In the Stack Deployments section Click **+ Add Stack Deployment**
 
 -   Save the Lab Profile, then launch the Lab.
 
->   [!NOTE] With the lab now loaded notice that you was automatically logged
+>   [!NOTE] With the lab now loaded notice that you are automatically logged
 >   into the AWS Console. Select **VPC** from the dashboard, notice the *retry*
 >   messages everywhere. From the search box enter **EC2** and go to the EC2
 >   dashboard, notice the *API Error*. This is all because AWS works on the
