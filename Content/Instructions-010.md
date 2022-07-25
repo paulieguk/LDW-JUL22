@@ -18,10 +18,9 @@ managed and reviewed if edited.
 
 -   Save the Lab Profile
 
-The Resource Template contains the JSON below. Notice this one has a BucketName
-which is using the **li-s3-** followed by the @lab.LabInstance.Id parameter
+The Resource Template contains the JSON below. Notice this file has a Parameter at the top.  The parameter is called *BucketNameParam* and is referenced in the resources section on the *BucketName* lineone has a BucketName.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ AWSTemplate-nocopy
+```AWSTemplate-nocopy
 {
   "AWSTemplateFormatVersion" : "2010-09-09",
 
@@ -45,7 +44,7 @@ which is using the **li-s3-** followed by the @lab.LabInstance.Id parameter
     }
   }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 -   Launch the Lab Profile
 
@@ -53,6 +52,6 @@ which is using the **li-s3-** followed by the @lab.LabInstance.Id parameter
     third one. The second and third S3 buckets are based on the Lab Instance Id
     therefore, the suffix number should be the same.
 
--   End the Lab
+>End the Lab
 
--   Press **Next to continue**
+Press **Next to continue**
