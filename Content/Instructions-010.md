@@ -15,6 +15,8 @@ managed and reviewed if edited.
 
 -   On the **Cloud** page in the **Stack Deployments** section add a third
     **Resource Template** ++AWS S3 Bucket with Parameter++
+    
+-   On the parameter page enter s3-&#64;lab.LabInstance.Id
 
 -   Save the Lab Profile
 
