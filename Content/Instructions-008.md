@@ -47,4 +47,4 @@ does not contain the name field. So, what will happen about the s3 Bucket name?
 
 >End the Lab
 
--   Press **Next** to continue
+Press **Next** to continue
