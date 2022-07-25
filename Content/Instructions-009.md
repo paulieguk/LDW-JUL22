@@ -10,7 +10,7 @@ This time you will add a second resource template that specifies the name.
 The Resource Template contains the JSON below. Notice this one has a BucketName
 which is using the **li-s3-** followed by the @lab.LabInstance.Id parameter
 
-!IMAGE[AWS Template](images/image10.jpg
+!IMAGE[AWS Template](images/image10.jpg)
 
 -   Launch the Lab Profile
 
