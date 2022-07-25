@@ -4,14 +4,14 @@
 
 - Launch the Lab Profile **AWS Simple Storage Service S3 Lab**
 - Using the search function navigate to the S3 dashboard
-- Create a new S3 Bucket using all defaults with a name of s3-@lab.LabInstance.Id
+- Create a new S3 Bucket using all defaults with a name of ++s3-@lab.LabInstance.Id++
 - This should create successfully
-- Create a second S3 Bucket using all the defaults with the name of test-@lab.LabInstance.Id
+- Create a second S3 Bucket using all the defaults with the name of ++test-@lab.LabInstance.Id++
 - This S3 bucket shoukd create successfully.
 
 ### Attempt to create a non S3 resource
 
-- In the Search box type ++ec2++ and navigate to the ec2 dashboard.
+- In the Search box type ++EC2++ and navigate to the EC2 dashboard.
 
 >[!ALERT] Notice all the API Error messages on the dashboard
 
@@ -21,7 +21,7 @@
 !IMAGE[AMI Selection](images/image6.jpg)
 
 - At the top of the page press the **Launch Instance with AMI** button
-- On the next page for the **Name** field enter ++@lab.Variable(initials)-ec2-01++
+- On the next page for the **Name** field enter ++@lab.Variable(initials)-EC2-01++
 - Press the **Launch Instance** button on the left
 - On the next screen choose the **Procced without key pair**
 - Then press the **Procced without key pair** button
