@@ -13,6 +13,7 @@ You will build an AWS Lab Profile with the absolute minimal settings
 | Series:       | LDW-JUL22                |
 | Organisation: | LDW-JUL22                |
 | Virtualization Platform: | None |
+| Duration | 15 Minutes |
 
 **Cloud Page**
 
