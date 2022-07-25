@@ -13,7 +13,7 @@ bucket being created.
 -   Edit the Lab Profile.
 
 -   On the Cloud page remove the old Access Control Policy and add the policy
-    \++LDW-JUL22 S3 Name Prefix S3++. This policy enforces a rule that when an S3
+    ++LDW-JUL22 S3 Name Prefix S3++. This policy enforces a rule that when an S3
     bucket is created the name has to start with the prefix s3
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ AWSACP-nocopy
