@@ -33,7 +33,7 @@ resources.
 >   the URL you download from contains s3-website in the name it is being
 >   downloaded from an Amazon S3 bucket acting as a static website.
 
-- End the Lab **AWSCloudLAb**
+> End the Lab **AWSCloudLAb**
 
 -   [] This completes the activities for Lab 1 please let your instructor know
     that you have completed Lab 1
