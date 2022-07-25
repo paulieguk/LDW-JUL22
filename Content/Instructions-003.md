@@ -53,7 +53,7 @@ With the lab launched notice the following:
 
 >  - [] Search for VPC and view the VPC dashboard again no errors and all values set at **0**
 
->   End the lab
+End the lab
 
 Now you will add the default VPC resources to see what that does.
 
