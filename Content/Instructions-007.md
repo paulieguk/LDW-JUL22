@@ -40,6 +40,8 @@ bucket being created.
 
 ### Testing the new Policy
 
+---
+
 #### Confirming S3 Buckets can be created
 
 -   Launch the Lab Profile **AWS Simple Storage Service S3 Lab**
