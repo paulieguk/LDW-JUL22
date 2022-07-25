@@ -32,7 +32,7 @@ During this exercise you will confirm the current policy does not restrict the a
 
 Wait for the **Instance State** to be displayed as running and having passed both the **Status Checks**.  This might take a few minutes.
 
-- End the Lab and make sure you close both Windows just leaving the original **LDW-Jul22-001: 001 LDW - AWS Cloud** lab running and continue.
+> End the Lab and make sure you close both Windows just leaving the original **LDW-Jul22-001: 001 LDW - AWS Cloud** lab running and continue.
 
 Press **Next** to continue
 
