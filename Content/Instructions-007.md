@@ -5,7 +5,7 @@ To demonstrate a further restriction function in this lab a new ACP will be
 applied but this time the ACP will also enforce a naming convention on the s3
 bucket being created.
 
-\#\#\#Updating the Access Control Policy
+### Updating the Access Control Policy
 
 -   From within LOD ensure the **AWS Simple Storage Service S3 Lab**, Lab
     Profile is being displayed.
