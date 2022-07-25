@@ -66,7 +66,7 @@ Now you will add the default VPC resources to see what that does.
 
 Once the Lab has started and the console is displayed click VPC from the
 dashboard or type ++VPC++ in the search to view the VPC dashboard. Notice the
-VPC dashboard show now show that a VPC, Subnets and other objects have been
+VPC dashboard now shows a VPC, Subnets, security objects, etc. objects have been
 created.
 
 !IMAGE[VPC Objects](images/image2.jpg)
