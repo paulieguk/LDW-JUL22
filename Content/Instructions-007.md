@@ -48,17 +48,15 @@ bucket being created.
 
 -   Using the search function navigate to the S3 dashboard
 
--   Create a new S3 Bucket using all defaults with a name of
-    \++s3-@lab.LabInstance.Id++
+-   Create a new S3 Bucket using all defaults with a name of ++s3-@lab.LabInstance.Id++
 
 -   This should create successfully
 
--   Create a second S3 Bucket using all the defaults with the name of
-    \++test-@lab.LabInstance.Id++
+-   Create a second S3 Bucket using all the defaults with the name of ++test-@lab.LabInstance.Id++
 
 -   This S3 bucket should fail to be created
 
--   End the Lab and make sure you close both Windows just leaving the original
+> End the Lab and make sure you close both Windows just leaving the original
     LDW-Jun22-001: 001 LDW - AWS Cloud lab running and continue.
 
 -   [] This completes the activities for Lab 2 please let your instructor know
