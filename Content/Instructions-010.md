@@ -37,4 +37,6 @@ The Resource Template conatins the JSON below.  Notive this one has a BucketName
 - Launch the Lab Profile
 - When launched notice three buckets now exist and notice the name of the third one.  The second and third S3 buckets are based on the the Lab Instance Id therefore, the suffix number should be the same.
 
-Press **End** to complete this set of labs.
+- End the Lab
+- Press **Next to continue**
+
