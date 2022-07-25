@@ -24,7 +24,8 @@ The Resource Template conatins the JSON below.  Notive this one has a BucketName
   }
 }
 ```
-&#9658;
+&#9658;     
+&#64;
 
 - Launch the Lab Profile
 - When launched notice two buckets now exist and notice the name of the second one
