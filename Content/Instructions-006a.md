@@ -22,13 +22,15 @@
 
 - At the top of the page press the **Launch Instance with AMI** button
 - On the next page for the **Name** field enter ++@lab.Variable(initials)-EC2-01++
+
+>[!ALERT] You will see an error at the bottom of the page.
+
 - Press the **Launch Instance** button on the left
 - On the next screen choose the **Procced without key pair**
 - Then press the **Procced without key pair** button
-- You will be noticing lots of errors due to a lack of permissions
-- Attempt to press the **launch Instance** button again and notice the additional errors
+- You will be noticing lots of errors due to a lack of permissions and otions not being completed because of those lack of permissions 
 
-- End the Lab and make sure you close both Windows just leaving the original **LDW-Jun22-001: 001 LDW - AWS Cloud** lab running and continue.
+> End the Lab and make sure you close both Windows just leaving the original **LDW-Jun22-001: 001 LDW - AWS Cloud** lab running and continue.
 
 Press **Next** to continue
 
