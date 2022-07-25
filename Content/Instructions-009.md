@@ -17,7 +17,7 @@ The Resource Template conatins the JSON below.  Notive this one has a BucketName
       "Type" : "AWS::S3::Bucket",
       "Properties" : {
         "AccessControl" : "PublicRead",
-        "BucketName" : "li-s3-&#64;lab.LabInstance.Id"
+        "BucketName" : "li-s3-&#64; lab.LabInstance.Id"
       },
       "DeletionPolicy" : "Delete"
     }
