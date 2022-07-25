@@ -17,7 +17,7 @@ resources.
 -   The Warning to acknowledge this would result in the bucket being publicly
     accessible
 
-!IMAGE[Bucket settings](images/image4.jpg)
+!IMAGE[Bucket settings](images/image5.jpg)
 
 -   Click **Create bucket**
 
