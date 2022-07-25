@@ -4,7 +4,7 @@ This time you will add a second resource template that specifies the name.
 - On the **Cloud** page in the **Stack Deployments** section add a second **Resource Template** ++AWS S3 Bucket with Lab Instance++
 - Save the Lab Profile 
 
-The Resource Template conatins the JSON below.  One thing to notice when you have been creating S3 buckets you have had to supply a name, notice the JSON file does not contain the name field.  So what will happen about the s3 Bucket name?
+The Resource Template conatins the JSON below.  Notive this one has a BucketName which is using the **li-s3-** followed by the @lab.LabInstance.Id parameter
 
 ```AWSTemplate-nocopy
 {
