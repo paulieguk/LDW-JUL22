@@ -45,6 +45,6 @@ does not contain the name field. So, what will happen about the s3 Bucket name?
 >   [!ALERT] The first participant to either shout out or enter into chat, the
 >   name format wins a prize!
 
--   End the Lab
+>End the Lab
 
 -   Press **Next** to continue
