@@ -1,14 +1,27 @@
 ### Introduction
 
-We user a AWS Resource Template in Lab 3 that had a lab variable placed into the template.  This approach is fine if you always want the same generated value being used in the template for every lab.  But what if the requirement was to use different string porefixes for example in different labs.  Multiple templates could be created and the **JOIN** function could be used.  This would require every Resource Template and Lab Profile to go through security review which cloud impact development.  An alternative option would be to configure the field as a parameter.  In this scenario the Lab Profile can then have the paramater customised on a per Lab Profile.  This way multiple templates do not need to be managed and reviewed if edited.
+We user a AWS Resource Template in Lab 3 that had a lab variable placed into the
+template. This approach is fine if you always want the same generated value
+being used in the template for every lab. But what if the requirement was to use
+different string prefixes for example in different labs. Multiple templates
+could be created, and the **JOIN** function could be used. This would require
+every Resource Template and Lab Profile to go through security review which
+cloud impact development. An alternative option would be to configure the field
+as a parameter. In this scenario the Lab Profile can then have the parameter
+customised on a per Lab Profile. This way multiple templates do not need to be
+managed and reviewed if edited.
 
-- Edit the ++AWS Simple Storage Service S3 Lab++ Lab Profile
-- On the **Cloud** page in the **Stack Deployments** section add a third **Resource Template** ++AWS S3 Bucket with Parameter++
-- Save the Lab Profile 
+-   Edit the ++AWS Simple Storage Service S3 Lab++ Lab Profile
 
-The Resource Template conatins the JSON below.  Notive this one has a BucketName which is using the **li-s3-** followed by the @lab.LabInstance.Id parameter
+-   On the **Cloud** page in the **Stack Deployments** section add a third
+    **Resource Template** ++AWS S3 Bucket with Parameter++
 
-```AWSTemplate-nocopy
+-   Save the Lab Profile
+
+The Resource Template contains the JSON below. Notice this one has a BucketName
+which is using the **li-s3-** followed by the @lab.LabInstance.Id parameter
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ AWSTemplate-nocopy
 {
   "AWSTemplateFormatVersion" : "2010-09-09",
 
@@ -32,11 +45,14 @@ The Resource Template conatins the JSON below.  Notive this one has a BucketName
     }
   }
 }
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Launch the Lab Profile
-- When launched notice three buckets now exist and notice the name of the third one.  The second and third S3 buckets are based on the the Lab Instance Id therefore, the suffix number should be the same.
+-   Launch the Lab Profile
 
-- End the Lab
-- Press **Next to continue**
+-   When launched notice three buckets now exist and notice the name of the
+    third one. The second and third S3 buckets are based on the Lab Instance Id
+    therefore, the suffix number should be the same.
 
+-   End the Lab
+
+-   Press **Next to continue**
