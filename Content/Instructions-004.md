@@ -36,4 +36,4 @@ resources.
 -   [] This completes the activities for Lab 1 please let your instructor know
     that you have completed Lab 1
 
-Press Next to continue
+Press **Next** to continue
