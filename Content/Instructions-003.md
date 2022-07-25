@@ -19,7 +19,7 @@ In the Stack Deployments section Click **+ Add Stack Deployment**
 >   default security principle of Deny all so without applying a security
 >   template access to everything has been blocked.
 
--   End the Lab and make sure you close both Windows just leaving the original
+>End the Lab and make sure you close both Windows just leaving the original
     **LDW-Jul22-001: 001 LDW - AWS Cloud** lab running and continue.
 
 >   [!KNOWLEDGE] LOD enables the ability to create user accounts in an AWS
@@ -53,7 +53,7 @@ With the lab launched notice the following:
 
 >  - [] Search for VPC and view the VPC dashboard again no errors and all values set at **0**
 
-End the lab
+> End the lab
 
 Now you will add the default VPC resources to see what that does.
 
