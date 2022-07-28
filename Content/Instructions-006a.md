@@ -7,7 +7,7 @@
 - Create a new S3 Bucket using all defaults with a name of ++s3-006-@lab.LabInstance.Id++
 - This should create successfully
 - Create a second S3 Bucket using all the defaults with the name of ++test-006-@lab.LabInstance.Id++
-- This S3 bucket shoukd create successfully.
+- This S3 bucket should create successfully.
 
 ### Attempt to create a non S3 resource
 
