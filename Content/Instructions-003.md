@@ -39,7 +39,7 @@ production.
 -   From the LOD Dashboard select the Lab Profile ++AWSCloudLab++ and edit that
     profile.
 
--   Click **+Add Policy** in the Access Control Policies section
+-   On the Cloud page click **+Add Policy** in the Access Control Policies section
 
 -   Select the **LOD Managed - Allow All (DEVELOPEMENT ONLY - AWS)**
 
