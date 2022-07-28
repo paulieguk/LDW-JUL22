@@ -28,7 +28,7 @@
 - Press the **Launch Instance** button on the left
 - On the next screen choose the **Procced without key pair**
 - Then press the **Procced without key pair** button
-- You will be noticing lots of errors due to a lack of permissions and otions not being completed because of those lack of permissions 
+- You will be noticing lots of errors due to a lack of permissions and options not being completed because of those lack of permissions 
 
 > End the Lab and make sure you close both Windows just leaving the original **LDW-Jun22-001: 001 LDW - AWS Cloud** lab running and continue.
 
